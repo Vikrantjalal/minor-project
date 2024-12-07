@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto'Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  background: #45a049;
+  transform: scale(1.05);
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 0.1px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.form-section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+/* Styling the welcome section image */
+#home img {
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+}
+
+/* Styling the feature list */
+#home ul {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
